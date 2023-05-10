@@ -7,8 +7,8 @@ function Search(props) {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': process.env.apiKey,
-            'X-RapidAPI-Host': process.env.apiHost
+            'X-RapidAPI-Key': 'a4a4238bd7msh9bfb6185442f113p1a3a65jsna92831658d49',
+            'X-RapidAPI-Host': "genius-song-lyrics1.p.rapidapi.com"
         }
     };
     const handleSubmit = (e) => {
