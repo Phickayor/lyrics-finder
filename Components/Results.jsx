@@ -15,7 +15,7 @@ function Results(props) {
                         <div className='space-y-3 my-4'>
                             <h3 className={`text-3xl font-mono font-semibold ${poppins.className}`}>{results.result.title}</h3>
                             <p className='text-2xl text-slate-400'>{results.result.artist_names}</p>
-                            <a href={results.result.url} className='text-3xl text-[#ff0000]' onClick={()=>{console.log(results['result']['header_image_url'])}>View Lyrics</a>
+                            <a href={results.result.url} className='text-3xl text-[#ff0000]' onClick={()=>{console.log(results['result']['header_image_url'])}}>View Lyrics</a>
                         </div>
                     </div>
                 ))
